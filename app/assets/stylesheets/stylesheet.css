@@ -1,0 +1,60 @@
+body .jumbotron-material-purple-900, .container .jumbotron-material-purple-900, .container-fluid .jumbotron-material-purple-900 {
+    background-color: #4a148c;
+}
+
+body {
+  font-size: 16px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 100px;
+}
+
+.site-footer {
+  background: orange;
+
+}
+
+.navbar .navbar-collapse {
+  float: right;
+  padding-right: 100px;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  font-size: 20px;
+}
+
+.navbar .navbar-nav > li > a {
+  font-size: 20px;
+}
+
+.navbar .navbar-brand {
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Bitter', serif;
+  font-size: 35px;
+  padding-left: 50px;
+}
+
+a {
+  color: #E91E63;
+}
+
+a:hover {
+  color: #4CAF50;
+}
+
+a:focus {
+  color: #03A9F4;
+}

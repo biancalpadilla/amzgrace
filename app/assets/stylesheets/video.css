@@ -1,0 +1,26 @@
+.panel.video {
+  width: 50%;
+  margin: auto;
+}
+
+.panel-body.video {
+  padding: 35px;
+  padding-left: 78px;
+}
+
+a.btn.btn-success.next.video {
+  float: right;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+a.btn.btn-info.back.video {
+  margin-top: 30px;
+}
+
+/*p {
+  font-size: 18px;
+  color: rgba(51, 51, 51, 0.83);
+  padding-bottom: 10px;
+}
+*/
